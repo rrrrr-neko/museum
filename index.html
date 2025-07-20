@@ -6,45 +6,56 @@
     <title>Museum</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header class="header">
-        <div class="header__logo"><img src="./assets/Logo.svg" alt="Logo louvre museum" class="logo"></div>
-        <nav class="navbar">
-            <ul class="navbar__list">
-                <li class="navbar__list-item">
-                    <a href="#virtual-tour" class="link navbar__link">Visiting</a>
-                </li>
-                <li class="navbar__list-item">
-                    <a href="#explore" class="link navbar__link">Explore</a>
-                </li>
-                <li class="navbar__list-item">
-                    <a href="#video" class="link navbar__link">Video</a>
-                </li>
-                <li class="navbar__list-item">
-                    <a href="#gallery" class="link navbar__link">Gallery</a>
-                </li>
-                <li class="navbar__list-item">
-                    <a href="#tickets" class="link navbar__link">Tickets</a>
-                </li>
-                <li class="navbar__list-item">
-                    <a href="#contacts" class="link navbar__link">Contacts</a>
-                </li>
-            </ul>
-        </nav>
+    <header class="header bg-black">
+        <div class="container header__container">
+            <div class="header__logo"><img src="./assets/Logo.svg" alt="Logo louvre museum" class="logo"></div>
+            <nav class="navbar">
+                <ul class="navbar__list">
+                    <li class="navbar__list-item">
+                        <a href="#virtual-tour" class="link navbar__link">Visiting</a>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="#explore" class="link navbar__link">Explore</a>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="#video" class="link navbar__link">Video</a>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="#gallery" class="link navbar__link">Gallery</a>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="#tickets" class="link navbar__link">Tickets</a>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="#contacts" class="link navbar__link">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main class="main">
         <section class="welcome bg-black">
             <div class="container welcome__container">
                 <div class="welcome__text">
                     <h1 class="header_white">Welcome to the Louvre</h1>
-                    <p class="description">From the castle to the museum</p>
+                    <p class="description_big">From the castle to the museum</p>
                     <div>
                         <button class="button">Discover the Louvre</button>
                     </div>
                 </div>
                 <div class="welcome__image">
-                    <img src="./assets/img/welcome-slider/1.jpg" alt="Mona Liza picture">
+                    <img class="image-sharp" src="./assets/img/welcome-slider/1.jpg" alt="Mona Liza picture">
+                    <div class="image-blur"></div>
                 </div>
             </div>
             <div class="pagination">
@@ -58,7 +69,7 @@
         </section>
         <section class="virtual-tour" id="virtual-tour">
             <div class="container virtual-tour">
-                <h2 class="header_gold">Virtual tour</h2>
+                <h2 class="header_olid">Virtual tour</h2>
                 <div class="line"></div>
                 <div class="virtual-tour__place-cards">
                     <div class="place-card">
@@ -111,7 +122,7 @@
                     <h2  class="header_white">Picture explore</h2>
                     <div class="line"></div>
                     <p class="description">
-                        Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden Age. <br>
+                        Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish oliden Age. <br>
                         It was cleaned in 1984 to remove a "yellow veil" of dust that had gathered since the previous restoration in the 19th century. <br>
                         The cleaning provoked furious protests, not because the picture had been damaged in any way, but because it looked different.<br>
                     </p>
@@ -126,7 +137,7 @@
         <section class="video" id="video">
             <div class="container video__container">
                 <div class="video__text">
-                    <h2 class="header_gold">Video journey</h2>
+                    <h2 class="header_olid">Video journey</h2>
                     <p class="description">Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code</p>
                 </div>
                 <div class="main-video">
@@ -166,7 +177,7 @@
         </section>
         <section class="tickets" id="tickets">
             <div class="tickets__container container">
-                <h2 class="header_gold">BUY TICKETS</h2>
+                <h2 class="header_olid">BUY TICKETS</h2>
                 <div class="line"></div>
                 <div class="tickets__info">
                     <div class="tickets__image">
@@ -200,7 +211,7 @@
         </section>
         <section class="contacts" id="contacts">
             <div class="container contacts__container">
-                <h2 class="header_gold">Contacts</h2>
+                <h2 class="header_olid">Contacts</h2>
                 <div class="line"></div>
                 <div class="contacts__info">
                     <div class="contacts__text">

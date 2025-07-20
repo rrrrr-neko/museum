@@ -1,9 +1,94 @@
 body {
   background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  color: #ffffff;
 }
 
 .container {
   width: 1440px;
+  margin: 0 auto;
+}
+
+.bg-black {
+  background-color: #030303;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.description_big {
+  font-size: 28px;
+}
+
+.header_white {
+  color: #ffffff;
+}
+
+.header_olid {
+  color: #ffffff;
+}
+
+.header {
+  color: #ffffff;
+}
+.header__container {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__list {
+  display: flex;
+  gap: 55px;
+}
+
+.welcome__text {
+  width: 598px;
+  margin-top: 150px;
+  z-index: 1;
+}
+.welcome__text h1 {
+  margin-bottom: 25px;
+}
+.welcome__text p {
+  margin-bottom: 75px;
+}
+.welcome__image {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+.welcome__image .image-sharp {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 2;
+}
+.welcome__image .image-blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100%;
+  background-image: url("../assets/img/welcome-slider/1.jpg");
+  background-size: cover;
+  background-position: left center;
+  filter: blur(10px);
+  z-index: 1;
+  pointer-events: none;
+  mask-image: linear-gradient(to right, black 0%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, black 0%, transparent 100%);
 }
 
 /*# sourceMappingURL=main.css.map */
