@@ -1,9 +1,47 @@
 body {
   background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
 }
 
 .container {
   width: 1440px;
+  margin: 0 auto;
+}
+
+.bg-black {
+  background-color: #030303;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+.header_white {
+  color: #ffffff;
+}
+
+.header_olid {
+  color: #ffffff;
+}
+
+.header {
+  color: #ffffff;
+}
+.header__container {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__list {
+  display: flex;
+  gap: 55px;
 }
 
 /*# sourceMappingURL=main.css.map */
